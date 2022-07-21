@@ -1,0 +1,32 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+#display {
+    display: flex;
+    justify-content: right;
+    height: 3vh;
+    font-size: 3vh;
+    margin-bottom: 2vh;
+}
+
+#functions {
+    display: flex;
+    justify-content: right;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5vw;
+    height: 4vh;
+}
+
+.numrow {
+    display: flex;
+}
