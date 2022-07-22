@@ -53,8 +53,12 @@ function changeText(string){
 }
 
 function operatorToUse(string){
-	firstNumber = Number(displayText);
+	if(operator != ""){
+		operate();
+	}
+
 	operator = string;
+	firstNumber = Number(displayText);
 	displayText = "";
 }
 
